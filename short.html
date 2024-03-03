@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles1.css">
+    <title>Document</title>
+</head>
+<body>
+<center>
+    <h1>Duke Aron Ruiz | ICT 11-C | Short Activity | Javascript Object</h1>
+    <p id="demo1"></p>
+    <br>
+    <p id="demo2"></p>
+    <br>
+    <p id="demo3"></p>
+    <br>
+    <p id="demo4"></p>
+    <br>
+    <p id="demo5"></p>
+
+    <strong id="const"></strong>
+    <script>
+        
+        const person = {
+            firstName: "Duke",
+            lastName: "Aron Ruiz",
+            age: 16,
+            eyeColor: "Brown",  
+        };
+
+        const dog = {
+            dogName: "Circle",
+            dogBreed: "Husky/Shi Tzu",
+            age: 2,
+            dogColor: "White",
+        };
+
+        const dog2 = {
+            dogName: "Jampol",
+            dogBreed: " 1/4 GoldenRetriever w/ Azkal ",
+            age: 4,
+            dogColor: "Brown",
+        };
+
+        const scooter = {
+            scootName: "Iwol",
+            scootBrand: "XiaomiM365",
+            age: 1,
+            scootColor: "Black",
+        };
+
+        const bot = {
+            robotGame: "3x National Champion",
+            robotExpe: "2 years",
+            robotDream: "International Competition",
+        };
+
+        document.getElementById("demo5").innerHTML = 
+        " The experience I have in robotics is significant" +
+        ", and I am eager to delve deeper into it " + "  as it could pave the way to  " +
+        " achieving my dreams. " + " My " + bot.robotExpe + " journey in the field of robotics has been rewarding. "
+        + " I have achieved notable success, being crowned as the  " 
+        + bot.robotGame + " in my category. "  + " Additionally, one of my aspirations is to compete in " +
+        bot.robotDream + ", where I can experience the competitiveness " + " of other countries firsthand. " 
+        
+
+        document.getElementById("demo4").innerHTML = 
+        " My Electric Scooter name is " + scooter.scootName + ". " +
+        " My e-scooter brand is " + scooter.scootBrand + ". " + 
+        " My mom bought me this " + scooter.age + " year ago. ";
+
+        document.getElementById("demo3").innerHTML = 
+        " My Second dog is named " + dog2.dogName + ", " + " he's a " +
+        dog2.dogBreed + "." + " My second dog is " + dog2.age + "." + 
+        " My dog fur color is " + dog2.dogColor;
+
+        document.getElementById("demo2").innerHTML = 
+        " I have a dog name " + dog.dogName + " and her breed is " + 
+        dog.dogBreed + ". " + " He is " + dog.age + " years old. " +
+        " Her fur color is " + dog.dogColor;
+
+        document.getElementById("demo1").innerHTML = 
+        person.firstName + " " + person.lastName + " is " + person.age + " years old. "
+        + " His eyes color is " + person.eyeColor + " . ";
+    </script>
+</body>
+</html>

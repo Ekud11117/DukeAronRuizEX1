@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    margin: 0;
+    color: #555;
+}
+
+#const {
+    display: block;
+    margin-top: 20px;
+    color: #444;
+    font-weight: bold; /* Adding bold font weight */
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Optional: Adding some spacing between elements */
+br {
+    margin-bottom: 10px;
+}
